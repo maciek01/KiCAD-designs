@@ -444,7 +444,10 @@
       "Library",
       "maciek-lib"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "New_Library",
+      "maciek-symbols"
+    ]
   },
   "meta": {
     "filename": "arduino-nano-esp32.kicad_pro",
