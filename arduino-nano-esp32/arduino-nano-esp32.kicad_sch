@@ -963,7 +963,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "RFM95W"
-				(at 0 1.016 0)
+				(at 1.27 0.508 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -978,8 +978,8 @@
 					)
 				)
 			)
-			(property "Footprint" "maciek-lib:lora-adafruit"
-				(at 8.89 -10.16 0)
+			(property "Footprint" "lora-adafruit"
+				(at -1.016 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1020,7 +1020,7 @@
 				(pin input line
 					(at -10.16 -10.16 0)
 					(length 2.54)
-					(name ""
+					(name "RST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1038,7 +1038,7 @@
 				(pin input line
 					(at 10.16 0 180)
 					(length 2.54)
-					(name ""
+					(name "G5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1056,7 +1056,7 @@
 				(pin input line
 					(at 10.16 2.54 180)
 					(length 2.54)
-					(name ""
+					(name "G4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1074,7 +1074,7 @@
 				(pin input line
 					(at 10.16 5.08 180)
 					(length 2.54)
-					(name ""
+					(name "G3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1092,7 +1092,7 @@
 				(pin input line
 					(at 10.16 7.62 180)
 					(length 2.54)
-					(name ""
+					(name "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1110,7 +1110,7 @@
 				(pin input line
 					(at 10.16 10.16 180)
 					(length 2.54)
-					(name ""
+					(name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,7 +1128,7 @@
 				(pin input line
 					(at -10.16 -7.62 0)
 					(length 2.54)
-					(name ""
+					(name "CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1146,7 +1146,7 @@
 				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name ""
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name ""
+					(name "MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1182,7 +1182,7 @@
 				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name ""
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1200,7 +1200,7 @@
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "G0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1218,7 +1218,7 @@
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
-					(name ""
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1614,6 +1614,118 @@
 		(color 0 0 0 0)
 		(uuid "1adbd94b-baf1-4ef4-baab-7a4f0fd7179f")
 	)
+	(no_connect
+		(at 143.51 59.69)
+		(uuid "15343737-842c-4ac0-ac8b-5a42945522fb")
+	)
+	(no_connect
+		(at 113.03 40.64)
+		(uuid "195c8c03-f335-4829-87c5-3e4d3a35972b")
+	)
+	(no_connect
+		(at 97.79 66.04)
+		(uuid "1b518d55-754a-4a66-8be6-ae3fa7959dd8")
+	)
+	(no_connect
+		(at 46.99 93.98)
+		(uuid "38255983-081f-46dd-b507-d94811f8dd96")
+	)
+	(no_connect
+		(at 46.99 81.28)
+		(uuid "3d4beb09-7091-4d2d-85ca-31be3e19a076")
+	)
+	(no_connect
+		(at 143.51 62.23)
+		(uuid "4062c9c6-7ded-4189-89a3-ad70a746ce29")
+	)
+	(no_connect
+		(at 97.79 53.34)
+		(uuid "5a0d5577-44e0-47a6-a8a7-8f595b8b407d")
+	)
+	(no_connect
+		(at 113.03 121.92)
+		(uuid "5f44a2bd-f44d-433b-8809-9481f21ce1d7")
+	)
+	(no_connect
+		(at 97.79 71.12)
+		(uuid "616c9156-81ab-4f40-a59b-e47898a414a3")
+	)
+	(no_connect
+		(at 46.99 66.04)
+		(uuid "6ffc4e1b-c8fd-4a1d-9ebb-a98c4628a5f1")
+	)
+	(no_connect
+		(at 46.99 71.12)
+		(uuid "70c241a7-5850-4814-8d06-c958e664ea12")
+	)
+	(no_connect
+		(at 123.19 64.77)
+		(uuid "7169520d-ec7d-4e7b-a7d1-b8984f5b05fa")
+	)
+	(no_connect
+		(at 97.79 68.58)
+		(uuid "7288ff5c-936c-4aa8-bba5-719b8ec279b9")
+	)
+	(no_connect
+		(at 97.79 73.66)
+		(uuid "74137977-a5e8-4f60-ab6e-18f67c8abf98")
+	)
+	(no_connect
+		(at 97.79 55.88)
+		(uuid "7ae67d88-d988-415c-90ed-dc090529c8c6")
+	)
+	(no_connect
+		(at 97.79 76.2)
+		(uuid "872f1671-1464-4f9c-a7b1-43cf0f128c14")
+	)
+	(no_connect
+		(at 46.99 68.58)
+		(uuid "9209c317-2d07-4419-a29e-2e71b24e4219")
+	)
+	(no_connect
+		(at 143.51 69.85)
+		(uuid "a067f311-685f-4b4d-8dcc-133f8888fcd4")
+	)
+	(no_connect
+		(at 143.51 64.77)
+		(uuid "ac61119a-e3a8-4f8c-9b56-c35a72012238")
+	)
+	(no_connect
+		(at 143.51 67.31)
+		(uuid "aeae2981-bc83-459c-b59d-e34c643b028e")
+	)
+	(no_connect
+		(at 46.99 78.74)
+		(uuid "c448d0bf-90f7-4c12-9ef2-f6f33e2baee0")
+	)
+	(no_connect
+		(at 46.99 83.82)
+		(uuid "d151a123-3420-4527-b356-0de22601fa1d")
+	)
+	(no_connect
+		(at 46.99 73.66)
+		(uuid "d9ce5ee6-bedd-446d-83cd-a3d998e3c7b6")
+	)
+	(no_connect
+		(at 113.03 111.76)
+		(uuid "e19ed149-d4e0-4bb1-b37b-18d64abca82c")
+	)
+	(no_connect
+		(at 46.99 91.44)
+		(uuid "e363f2f9-1e83-42f4-9f43-f9fe48f156d1")
+	)
+	(no_connect
+		(at 46.99 58.42)
+		(uuid "f6f82fa7-6287-4bb6-aac3-34d7257738b4")
+	)
+	(no_connect
+		(at 46.99 76.2)
+		(uuid "f86eea8e-e509-4279-9745-d02661bf89fb")
+	)
+	(no_connect
+		(at 113.03 50.8)
+		(uuid "f97297f8-cb37-413b-a20e-19e303c8d1a7")
+	)
 	(wire
 		(pts
 			(xy 110.49 67.31) (xy 123.19 67.31)
@@ -1943,6 +2055,52 @@
 			(type default)
 		)
 		(uuid "f7bbdac8-a276-46df-8f6b-d06d56a608ae")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 33.02 105.41 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0a110366-3dd6-4e15-b1c9-a938de8e4513")
+		(property "Netclass" "POWER"
+			(at 30.48 104.7115 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 25.4 44.45 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f4a632c-21bc-428c-9849-b9cf1392451c")
+		(property "Netclass" "POWER"
+			(at 22.86 43.7515 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -2732,7 +2890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "maciek-lib:lora-adafruit"
+		(property "Footprint" "lora-adafruit"
 			(at 142.24 80.01 0)
 			(effects
 				(font

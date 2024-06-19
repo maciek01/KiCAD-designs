@@ -10,7 +10,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "RFM95W"
-				(at 0 1.016 0)
+				(at 1.27 0.508 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -25,8 +25,8 @@
 					)
 				)
 			)
-			(property "Footprint" "maciek-lib:lora-adafruit"
-				(at 8.89 -10.16 0)
+			(property "Footprint" "lora-adafruit"
+				(at -1.016 0.762 90)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -67,7 +67,7 @@
 				(pin input line
 					(at -10.16 -10.16 0)
 					(length 2.54)
-					(name ""
+					(name "RST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -85,7 +85,7 @@
 				(pin input line
 					(at 10.16 0 180)
 					(length 2.54)
-					(name ""
+					(name "G5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -103,7 +103,7 @@
 				(pin input line
 					(at 10.16 2.54 180)
 					(length 2.54)
-					(name ""
+					(name "G4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -121,7 +121,7 @@
 				(pin input line
 					(at 10.16 5.08 180)
 					(length 2.54)
-					(name ""
+					(name "G3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -139,7 +139,7 @@
 				(pin input line
 					(at 10.16 7.62 180)
 					(length 2.54)
-					(name ""
+					(name "G2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -157,7 +157,7 @@
 				(pin input line
 					(at 10.16 10.16 180)
 					(length 2.54)
-					(name ""
+					(name "G1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -175,7 +175,7 @@
 				(pin input line
 					(at -10.16 -7.62 0)
 					(length 2.54)
-					(name ""
+					(name "CS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -193,7 +193,7 @@
 				(pin input line
 					(at -10.16 -5.08 0)
 					(length 2.54)
-					(name ""
+					(name "MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -211,7 +211,7 @@
 				(pin input line
 					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name ""
+					(name "MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -229,7 +229,7 @@
 				(pin input line
 					(at -10.16 0 0)
 					(length 2.54)
-					(name ""
+					(name "SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -247,7 +247,7 @@
 				(pin input line
 					(at -10.16 2.54 0)
 					(length 2.54)
-					(name ""
+					(name "G0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -265,7 +265,7 @@
 				(pin input line
 					(at -10.16 5.08 0)
 					(length 2.54)
-					(name ""
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -555,6 +555,52 @@
 		)
 		(uuid "f22404b7-9682-441c-adb6-fd7f7691b104")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 107.95 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "133584ed-dfe0-42a0-a72f-f1b80a62a362")
+		(property "Netclass" "POWER"
+			(at 108.6485 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 107.95 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a92dfcd6-539a-4409-a20a-cf694e172558")
+		(property "Netclass" "POWER"
+			(at 108.6485 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 105.41 86.36 0)
@@ -647,7 +693,7 @@
 				)
 			)
 		)
-		(property "Footprint" "maciek-lib:lora-adafruit"
+		(property "Footprint" "lora-adafruit"
 			(at 132.08 106.68 0)
 			(effects
 				(font
